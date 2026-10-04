@@ -6,8 +6,8 @@ Each module is its own web app with its **own database** and **own UI**; all thr
 | Module | Project | Port | Database | Owner |
 |---|---|---|---|---|
 | **A. Identity & Organization** | `AssetHub.Identity` | 5001 | `identity.db` | Tanvi |
-| **B. Asset & Allocation** | `AssetHub.Assets` | 5002 | `assets.db` | Person 2 |
-| **C. Booking & Audit** | `AssetHub.Booking` | 5003 | `booking.db` | Person 3 |
+| **B. Asset & Allocation** | `AssetHub.Assets` | 5002 | `assets.db` | Ankita |
+| **C. Booking & Audit** | `AssetHub.Booking` | 5003 | `booking.db` | Vaishnavi |
 
 `AssetHub.Shared` is a small class library used by all three (JWT validation, error handling, input guards, UTC date handling, the Identity client). `SharedUI/` is the shared UI template (CSS + a small JS toolkit); it is copied into each module's `wwwroot/shared`.
 
