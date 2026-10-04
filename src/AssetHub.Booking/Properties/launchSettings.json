@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AssetHub.Booking": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:53731;http://localhost:53733"
+    }
+  }
+}
